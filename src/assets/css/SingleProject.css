@@ -1,0 +1,281 @@
+.Project_About {}
+
+.Project_About .container {}
+
+.Project_About .container .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 50px;
+}
+
+.Project_About .container .card div.contant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.Project_About .container .card div.contant h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Project_About .container .card div.contant button {
+    padding: 15px 25px;
+    color: #ffffff;
+    background-color: #0050FF;
+    border: none;
+}
+
+.Project_About .container .card div.contant p {
+    font-size: 30px;
+    font-weight: 500;
+    color: #00000099;
+}
+
+.Project_About .container .card div.image {
+    width: 45%;
+    height: 100%;
+}
+
+.Project_About .container .card div.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.Project_About .container .Interiors_Exteriors {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.Project_About .container .Interiors_Exteriors .Exteriors h1,
+.Project_About .container .Interiors_Exteriors .Interiors h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.Project_About .container .Interiors_Exteriors .Interiors,
+.Project_About .container .Interiors_Exteriors .Exteriors {
+    width: 48%;
+}
+
+.Project_About .container .Interiors_Exteriors .Interiors .swiper,
+.Project_About .container .Interiors_Exteriors .Exteriors .swiper {
+    width: 100%;
+
+}
+
+.Project_About .container .Interiors_Exteriors .Interiors .swiper-slide:hover:after,
+.Project_About .container .Interiors_Exteriors .Exteriors .swiper-slide:hover:after {
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Project_About .container .Interiors_Exteriors .Interiors .swiper-slide::after,
+.Project_About .container .Interiors_Exteriors .Exteriors .swiper-slide::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.Project_About .container .Interiors_Exteriors .Interiors .swiper-slide,
+.Project_About .container .Interiors_Exteriors .Exteriors .swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Project_About .container .Interiors_Exteriors .Interiors .swiper-slide img,
+.Project_About .container .Interiors_Exteriors .Exteriors .swiper-slide img {
+    display: block;
+    width: 100%;
+
+}
+
+.Project_About .container .Key {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 60px;
+}
+
+.Project_About h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Project_About .container .Key div.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.Project_About .container .Key div.icons .icon {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.Project_About .container .Key div.icons .icon span {
+    font-size: 70px;
+}
+
+.Project_About .container .Key div.icons .icon p {
+    color: #2D2D2D;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.map h1 {
+    padding: 0 70px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.map img {
+    width: 100%;
+    height: 85vh;
+}
+
+.Register::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.Register {
+    position: relative;
+    background-image: url(../image/imageR.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 60px;
+}
+
+.Register .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Register .container h1 {
+    z-index: 5;
+    position: relative;
+    color: white;
+    font-size: 65px;
+}
+
+.Register .container .card {
+    z-index: 5;
+    position: relative;
+    background-color: transparent;
+    padding: 50px 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Register .container .card .v-input {
+    width: 100%;
+    color: white;
+}
+
+.Register .container .card button {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    font: 20px;
+    font-weight: 500;
+    border: 1px solid white;
+
+}
+
+@media (max-width:1000px) {
+    .Project_About .container .card .image {
+        width: 100% !important;
+    }
+
+    .Project_About .container .card .contant {
+        width: 100% !important;
+    }
+
+    .Project_About .container .card {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media (max-width:680px) {
+    .Interiors_Exteriors {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Project_About .container .Interiors_Exteriors .Interiors,
+    .Project_About .container .Interiors_Exteriors .Exteriors {
+        width: 100% !important;
+    }
+
+    .Register {
+        height: auto !important;
+    }
+
+    .Register .container .card {
+        width: 100% !important;
+    }
+
+    .Register .container {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 0 15px !important;
+    }
+
+    .Project_About .container .Key div.icons .icon {
+        width: 50% !important;
+    }
+}
+
+@media (max-width:680px) {
+    main .container h1 {
+        font-size: 60px !important;
+    }
+
+
+
+    main {
+        top: -96px;
+    }
+
+}

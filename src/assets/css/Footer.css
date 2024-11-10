@@ -1,0 +1,130 @@
+footer.tp-footer-area {
+    width: 100%;
+    background-color: #262626;
+    color: white;
+}
+
+footer.tp-footer-area .container {
+    display: flex;
+    align-items: start;
+    padding: 40px;
+    gap: 35px;
+}
+
+footer.tp-footer-area .container .Logo_Footer {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer.tp-footer-area .container .Logo_Footer .Logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer.tp-footer-area .container .Logo_Footer .Logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+footer.tp-footer-area .container .Logo_Footer .Logo h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+footer.tp-footer-area .container .Logo_Footer p {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+footer.tp-footer-area .container .Logo_Footer .icons {
+    color: #72B944;
+    display: flex;
+    gap: 2px;
+}
+
+footer.tp-footer-area .container .Logo_Footer .icons span {
+    width: 40px;
+    font-size: 35px;
+    height: 40px;
+}
+
+footer.tp-footer-area .container .Logo_Footer .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer.tp-footer-area .container .Logo_Footer .contact h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer.tp-footer-area .container .Logo_Footer .contact .contact_info {
+    display: flex;
+    gap: 10px;
+}
+
+footer.tp-footer-area .container .Logo_Footer .contact .contact_info span {
+    font-size: 16px;
+}
+
+
+footer.tp-footer-area .container .Logo_Footer .contact .contact_info a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer.tp-footer-area .container .About_Footer {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+footer.tp-footer-area .container .About_Footer .About {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer.tp-footer-area .container .About_Footer .About h4 {
+    color: #72B944;
+    border-bottom: 1px solid #72B944;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+footer.tp-footer-area .container .About_Footer .About h5 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@media (max-width:1000px) {
+    footer.tp-footer-area .container {
+        flex-direction: column;
+
+    }
+
+    footer.tp-footer-area .container .Logo_Footer,
+    footer.tp-footer-area .container .About_Footer {
+        width: 100%;
+    }
+
+    footer.tp-footer-area .container .About_Footer .About {
+        width: 100%;
+    }
+
+    footer.tp-footer-area .container .About_Footer {
+        flex-direction: column;
+    }
+}
